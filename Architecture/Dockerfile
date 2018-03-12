@@ -15,8 +15,8 @@ RUN apt-get update && apt-get install -y \
     python3-scipy \
     vim \
     linux-tools-common \
-    linux-tools-KERNEL_VERSION-generic \
-    linux-cloud-tools-KERNEL_VERSION-generic \
+    linux-tools-KERNEL_VERSION \
+    linux-cloud-tools-KERNEL_VERSION \
     linux-tools-generic \
     linux-cloud-tools-generic
 
